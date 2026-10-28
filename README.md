@@ -20,3 +20,7 @@ pytest projects/08-rate-limiter -q
 - Injected clock (`FakeClock`) makes every timing test deterministic - no `sleep()` in tests
 - Documents the fixed-window burst weakness with a test that proves it
 - RFC 9331-style headers (`X-RateLimit-*`, `Retry-After`) generated for you
+
+## Repository
+- GitHub: https://github.com/{owner}/rate-limiter
+- Python 3.11+ · tests: `pytest` · runtime dependencies: none (standard library only)
